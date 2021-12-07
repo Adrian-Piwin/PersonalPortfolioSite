@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navstyle.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,16 +16,70 @@
     <title>Adrian Piwin</title>
 </head>
 <body>
-    <div id="navbar">
-        <a id="logo" href="#home">AP</a>
-        <a id="hamburger" onclick="onNavClick()">
-            <i id="hamburger-icon" class="fa fa-bars"></i>
-        </a>
+    <!-- Logo -->
+    <a id="logo" href="#home">AP</a>
+
+    <!-- Popout Nav -->
+    <div id="menuToggle">
+
+        <input type="checkbox" />
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <ul id="menu">
+            <a href="#home"><li>Home</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Contact</li></a>
+        </ul>
     </div>
 
-    <div id="home">
-        <div id="home-text">Hey! I'm Adrian.<br>I build apps and games.</div>
+    <!-- Home Page -->
+    <div id="home" class="page">
+        <div id="home-text">Hey! I'm Adrian.<br>I am passionate about all things computer science.</div>
         <img id="home-img" src="assets/original.gif"></img>
+    </div>
+
+    <!-- Project Page -->
+    <div id="projects" class="page">
+        <div class="page-title">&ltprojects&gt</div>
+
+        <div class="project-item">
+            <!-- Project Title & Description -->
+            <div class="project-item-title">Test</div>
+            <div class="project-item-description">This app can make stuff happen!</div>
+            <!-- Project Links -->
+            <span class="portfolioButtons">
+                <a href="" target="_blank" class="boxBtn RemoveLink">View Project</a>
+                <a href="" target="_blank" class="boxBtn RemoveLink" style="margin-left: 10px;">View Code</a>
+            </span>
+        </div>
+
+        <div class="project-item">
+            <!-- Project Title & Description -->
+            <div class="project-item-title">Test</div>
+            <div class="project-item-description">This app can make stuff happen!</div>
+            <!-- Project Links -->
+            <span class="portfolioButtons">
+                <a href="" target="_blank" class="boxBtn RemoveLink">View Project</a>
+                <a href="" target="_blank" class="boxBtn RemoveLink" style="margin-left: 10px;">View Code</a>
+            </span>
+        </div>
+
+        <div class="project-item">
+            <!-- Project Title & Description -->
+            <div class="project-item-title">Test</div>
+            <div class="project-item-description">This app can make stuff happen!</div>
+            <!-- Project Links -->
+            <span class="portfolioButtons">
+                <a href="" target="_blank" class="boxBtn RemoveLink">View Project</a>
+                <a href="" target="_blank" class="boxBtn RemoveLink" style="margin-left: 10px;">View Code</a>
+            </span>
+        </div>
+
+        <div class="page-title">&lt/projects&gt</div>
     </div>
 
 </body>
