@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #2E3033;
+}
+
+/* ======= NAVBAR ======= */
+
+#navbar{
+    display: flex;
+    position: fixed;
+    width: calc(100% - 60px);
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#logo{
+    color: white;
+    text-decoration: none;
+    font-size: calc(3vw + 3vh)
+}
+
+#hamburger{
+    font-size: calc(2vw + 2vh);
+    color: white;
+}
+
+#hamburger:hover{
+    cursor: pointer;
+}
+
+/* ======= HOME ======= */
+
+#home{
+    display: flex;
+    width: 60%;
+    height: calc(100% - 100px);
+    padding: 50px 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-text{
+    width: 50%;
+    color: white;
+    font-size: calc(2vw + 2vh);
+}
+
+#home-img{
+    width: 50%;
+    object-fit: cover;
+}
