@@ -23,7 +23,7 @@
 #home-text{
     position: absolute;
     transform: translateY(-6vw);
-    width: fit-content;
+    width: 36vw;
 }
 
 #home-text :nth-child(1){
@@ -51,3 +51,24 @@
 #home-links a img{
     width: 100%;
 }
+
+/* ======= Blinker ======= */
+
+#blinker {
+    height: 30px;
+    margin-bottom: -4px;
+    width: 2px;
+    background: white;
+    opacity: 0;
+    display: inline-block;
+    animation: blink 1s linear infinite alternate;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
