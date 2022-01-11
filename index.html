@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="../style-sheets/global-style.css">
+    <link rel="stylesheet" href="../style-sheets/nav-style.css">
+    <link rel="stylesheet" href="../style-sheets/homepage-style.css">
+    <link rel="stylesheet" href="../style-sheets/project-style.css">
+    <link rel="stylesheet" href="../style-sheets/about-style.css">
+    <link rel="stylesheet" href="../style-sheets/contact-style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
     
     <script src="script.js"></script>
     <title>Adrian Piwin</title>
 </head>
 <body>
     <!-- Logo -->
-    <a id="logo" href="#home">AP</a>
+    <a id="logo" href="#home">
+        <img src="../assets/logo.png" alt="">
+    </a>
 
     <!-- Popout Nav -->
     <div id="menuToggle">
@@ -29,21 +35,38 @@
         <span></span>
         
         <ul id="menu">
-            <a href="#home"><li>Home</li></a>
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Contact</li></a>
+            <a href="#home"><li>HOME</li></a>
+            <a href="#projects"><li>PROJECTS</li></a>
+            <a href="#about"><li>ABOUT</li></a>
+            <a href="#contact"><li>CONTACT</li></a>
+
+            <div id="nav-links">
+                <a href="http://github.com" target="_blank"><img src="../assets/GitHub.png" alt=""></a>
+                <a href="http://github.com" target="_blank"><img src="../assets/Linkedin.png" alt=""></a>
+                <a href="http://github.com" target="_blank"><img src="../assets/Email.png" alt=""></a>
+                <a href="http://github.com" target="_blank"><img src="../assets/Resume.png" alt=""></a>
+            </div>
         </ul>
     </div>
 
     <!-- Home Page -->
-    <div id="home" class="page">
-        <div id="home-text">Hey! I'm Adrian.<br>I am passionate about all things computer science.</div>
-        <img id="home-img" src="assets/original.gif"></img>
+    <div id="home" class="page" style="padding-top: 0 !important; background-color: #39393A;">
+        <img id="home-img" src="../assets/laptop.png">
+        <img id="home-bg" src="../assets/bg.gif" alt="">
+        <div id="home-text">
+            <div>Hey, I’m Adrian, a </div>
+            <div>Fullstack Developer</div>
+        </div>
+        <div id="home-links">
+            <a href="http://github.com" target="_blank"><img src="../assets/GitHub.png" alt=""></a>
+            <a href="http://github.com" target="_blank"><img src="../assets/Linkedin.png" alt=""></a>
+            <a href="http://github.com" target="_blank"><img src="../assets/Email.png" alt=""></a>
+            <a href="http://github.com" target="_blank"><img src="../assets/Resume.png" alt=""></a>
+        </div>
     </div>
 
     <!-- Project Page -->
-    <div id="projects" class="page">
+    <div id="projects" class="page" style="background-color: #342E37;">
         <div class="page-title">&ltprojects&gt</div>
 
         <div class="project-item">
@@ -80,6 +103,20 @@
         </div>
 
         <div class="page-title">&lt/projects&gt</div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page" style="background-color: #39393A;">
+        <div class="page-title">&ltabout&gt</div>
+
+        <div class="page-title">&lt/about&gt</div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page" style="background-color: #342E37;">
+        <div class="page-title">&ltcontact&gt</div>
+
+        <div class="page-title">&lt/contact&gt</div>
     </div>
 
 </body>
