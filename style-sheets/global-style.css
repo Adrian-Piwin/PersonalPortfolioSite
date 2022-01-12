@@ -36,15 +36,19 @@ body{
 }
 
 .page{
-    display: flex;
-    width: 60%;
-    padding: 50px 20% 0 20%;
+    width: 70%;
+    padding: 0 15%;
     min-height: 100vh;
 }
 
 .page-title{
     transform: translate(-50px);
     font-size: calc(1.3vw + 1.3vh);
-    color: #f7768e;
+    color: #3C91E6;
+    font-family: 'Source Code Pro', monospace;
+    padding: 50px 0;
 }
 
+.remove-link{
+    text-decoration: none;
+}
