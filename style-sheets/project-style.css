@@ -28,6 +28,7 @@
 .project-img{
     width: 20%;
     object-fit:contain;
+    border-radius: 8px;
 }
 
 .project-item-title{
