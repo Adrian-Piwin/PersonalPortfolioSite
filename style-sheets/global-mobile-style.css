@@ -12,6 +12,11 @@
         z-index: 10;
     }
 
+    .page{
+        width: 80%;
+        padding: 0 10%;
+    }
+
     .page-title{
         font-size: calc(2.5vw + 2.5vh);
     }
