@@ -45,7 +45,7 @@ body{
 
 .page-title{
     transform: translate(-50px);
-    font-size: calc(1.3vw + 1.3vh);
+    font-size: calc(1.75vw + 1.75vh);
     color: #3C91E6;
     font-family: 'Source Code Pro', monospace;
     padding: 50px 0;

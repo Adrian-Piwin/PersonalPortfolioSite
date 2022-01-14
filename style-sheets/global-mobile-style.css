@@ -1,6 +1,6 @@
 /* ======= Global Mobile ======= */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #mobile-nav-bg{
         display: block !important;
         width: 100%;
@@ -10,5 +10,9 @@
         position: fixed;
         top: 0;
         z-index: 10;
+    }
+
+    .page-title{
+        font-size: calc(2.5vw + 2.5vh);
     }
 }
